@@ -1,6 +1,6 @@
-body {
+.body {
   font-family: 'Poppins', sans-serif;
-  background-color: #e3f7f1; /* verde-água pastel */
+  background-color: #e3f7f1; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,10 +11,71 @@ body {
 
 .container {
   background-color: #ffffff;
-  padding: 40px;
-  border-radius: 15px;
+  margin-top: 80px;
+  
+  padding: 50px;
+  border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  max-width: 600px;
+  width: 90%;
+  max-width: 800px;
   color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;     
+  margin: 0 auto;        
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 30px 30px;
+  background-color: #007B7F;  
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px; 
+}
+
+.botao {
+  padding: 2px 6px;
+  font-size: 1em;
+  border: none;
+  background-color: #007B7F;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
 }
