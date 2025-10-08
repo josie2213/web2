@@ -12,7 +12,7 @@
 .container {
   background-color: #ffffff;
   margin-top: 80px;
-  
+  display: flex;
   padding: 50px;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -71,11 +71,33 @@ body {
 }
 
 .botao {
-  padding: 2px 6px;
-  font-size: 1em;
+  background: #007B7F;
+  color: #fff;
   border: none;
-  background-color: #007B7F;
-  color: white;
-  border-radius: 6px;
+  padding:  10px 20px;
+  border-radius:  6px;
+  box-shadow: 0 2px 4px #bdbdbd;
   cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+    background: #00796b;
+}
+
+.input, select, textarea {
+    border: 2px solid #007B7F;
+    border-radius: 5px;
+    padding:  8px 12px;
+    background-color: #e3f7f1;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 px rgba(0, 0, 0, 1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007B7F;
+    box-shadow: 0 0 8px #e3f7f1;
+    outline: none;
 }
