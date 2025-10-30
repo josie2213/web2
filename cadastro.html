@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedCheck</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <br>
+        <h2>Somos seu sistema de agendamento médico, faça seu cadastro para continuar!</h2>
+
+        <br><br>
+
+        <form id="cadatroForm">
+            <label for="name">Nome Completo:</label><br>
+            <input type="text" id="name" name="name" placeholder="Seu Nome" required><br><br>
+
+            <label for="end">Endereço:</label><br>
+            <input type="text" id="end" name="end" placeholder="Bairro, Número da Casa" required><br><br>
+
+            <label for="nasci">Data de Nascimento</label><br>
+            <input type="date" id="nasci" name="nasci" required><br><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="seu.email@gmail.com" required><br><br>
+
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma Senha Forte" required><br><br>
+
+            <label for="conf">Confirme a Senha</label><br>
+            <input type="password" id="conf" name="conf" placeholder="Escreva novamente" required><br><br>
+
+
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Recomeçar</button>
+        </form>
+
+        <br>
+        <p>Já tem conta?</p>
+        <a href="login.html">Acesse aqui</a>
+    </div>
+
+    <script src="cadastro.js"></script>
+
+</body>
+</html>
