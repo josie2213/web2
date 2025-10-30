@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e3f7f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 5%;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4f9f99;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4f9f99;
+  box-shadow: 0 0 5px rgba(79, 159, 153, 0.5);
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="button"] {
+  background-color: #4f9f99;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #3e7f7b;
+}
+
+button[type="reset"] {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button[type="reset"]:hover {
+  background-color: #ddd;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4f9f99;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
