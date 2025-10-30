@@ -8,7 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
 
     if (usuario && usuario.senha === senha){
         alert("Login realizado co sucesso! Bem-vindo " + usuario.name);
-        window.location.href = "";
+        window.location.href = "agendamento.html";
     } else {
         alert("! E-mail ou Senha incorretos !");
     }
